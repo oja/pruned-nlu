@@ -1,0 +1,10 @@
+filename = 'atis/train/seq.out'
+
+blah = set()
+with open(filename) as f:
+    for line in f:
+        line = line.rstrip().split()
+        for word in line:
+            blah.add(word)
+
+print(len(blah))
