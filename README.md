@@ -13,8 +13,14 @@ wget http://nlp.stanford.edu/data/glove.6B.zip
 unzip glove.6B.zip -d glove
 ```
 
-## Train & test
+## Files
+- `train.py`, `test.py`, `distill.py`, `timer.py`, `prune.py`: runnable scripts, check each file's argparse for options and details
+- `models.py`: intent detection, slot-filling, and multi-task (joint intent detection and slot filling) CNN models
+- `dataset.py`: dataset loading abstractions
+- `util.py`: common code
+- `models/`: pretrained models, 5 duplicates of each
+- `datasets/`: prepared ATIS and Snips datasets
 
-## Prune
 
-## Distill
+## Contact
+[ojas@utexas.edu](mailto:ojas@utexas.edu)
