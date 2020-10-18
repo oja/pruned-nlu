@@ -1,4 +1,6 @@
-# pruned-nlu
+# Accelerating NLU in Task-Oriented Dialog
+
+Code for ACL ConvAI workshop paper "Accelerating Natural Language Understanding in Task-Oriented Dialog".
 
 ## Requirements
 - \>= Python 3.7
@@ -21,6 +23,17 @@ unzip glove.6B.zip -d glove
 - `models/`: pretrained models, 5 duplicates of each
 - `datasets/`: prepared ATIS and Snips datasets
 
+## Citation
+```bibtex
+@inproceedings{ahuja-desai-2020-accelerating,
+    title = "Accelerating Natural Language Understanding in Task-Oriented Dialog",
+    author = "Ahuja, Ojas  and
+      Desai, Shrey",
+    booktitle = "Proceedings of the 2nd Workshop on Natural Language Processing for Conversational AI",
+    year = "2020",
+    publisher = "Association for Computational Linguistics"
+}
+```
 
 ## Contact
 [ojas@utexas.edu](mailto:ojas@utexas.edu)
